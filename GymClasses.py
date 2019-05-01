@@ -2,7 +2,7 @@
 # Day, Type of GymClass, Name of GymClass
 
 GymClass_0 = {'Day':'tuesday', 'Type':'Mind & Body', 'Name':'Tue 09:30 Body Balance'}
-GymClass_1 = {'Day':'tuesday','Type': 'Strength & Conditioning','Name':'Legs Bums Tums'}
+GymClass_1 = {'Day':'tuesday','Type': 'Strength & Conditioning','Name':'Tue 10:30 Legs Bums Tums'}
 GymClass_2 = {'Day':'wednesday','Type':'High Energy','Name':'Wed 09:15 Body Pump'}
 GymClass_3 = {'Day':'wednesday','Type':'Mind & Body','Name':'Wed 09:15 Hatha'}
 GymClass_4 = {'Day':'friday','Type':'Mind & Body','Name':'Body Balance'}
