@@ -169,12 +169,15 @@ while True:
     time.sleep(11)
 
 #####
-# Links and xcodes used:
-# Shameless plug - https://www.johnsonellis.xyz/i-made-that
-# Main page - https://my.bhliveactive.org.uk/Connect/mrmLogin.aspx
+## Links and xcodes used:
+# Main page of the gym - https://my.bhliveactive.org.uk/Connect/mrmLogin.aspx
 # -Username field - //*[@id="ctl00_MainContent_InputLogin"]
 # -Password field - //*[@id="ctl00_MainContent_InputPassword"]
 # -Login Button - //*[@id="ctl00_MainContent_btnLogin"]
 # Location Setting page - https://my.bhliveactive.org.uk/Connect/mrmSelectSite.aspx
 # -Button for 'Corfe Mulllen' - //*[@id="ctl00_MainContent_sitesGrid_ctrl1_lnkListCommand"]
 # A button that says 'Book' - //input[@value="Book"]
+# Shameless plug - https://www.johnsonellis.xyz/i-made-that
+## These publicly available libraries were used:
+# Selenium for the web browser control - https://docs.seleniumhq.org/
+# Schedule API for executing tasks at specific times- https://pypi.org/project/schedule/
