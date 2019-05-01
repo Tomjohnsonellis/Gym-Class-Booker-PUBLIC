@@ -129,7 +129,7 @@ def initialise():
     print("#####SETTING UP#####")
     chrome_options = ''
 
-    ## THIS NEEDS TO BE SYSTEM SPECIFIC - CHANGE FOR PI
+    ## THIS IS SYSTEM SPECIFIC - CHANGE THE executable_path ON PI
     driver = webdriver.Chrome(executable_path='C:\\Users\\tomjo\\PycharmProjects\\GymBookerRevamp\\venv\\Scripts\\chromedriver.exe',
                               chrome_options=chrome_options)
     wait = WebDriverWait(driver, 30)
@@ -142,9 +142,9 @@ def initialise():
     for classes in GymClasses.gymClasses:
         codeToExec = ""
         scheduleCodeSections = scheduleCodeSectionsTemplate
-        scheduleCodeSections[1] = classes['day']
-        scheduleCodeSections[3] = classes['type']
-        scheduleCodeSections[5] = classes['className']
+        scheduleCodeSections[1] = classes['Day']
+        scheduleCodeSections[3] = classes['Type']
+        scheduleCodeSections[5] = classes['Name']
         for section in scheduleCodeSections:
             codeToExec += section
         codeLinesToExec.append(codeToExec)
